@@ -5,6 +5,7 @@
 body {
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 0px;
 }
 
 main {
@@ -75,8 +76,6 @@ button[type="submit"] {
     background-color: #0065FC;
     border: none;
     padding: 10px;
-    border-top-left-radius: 0x;
-    border-bottom-left-radius: 0px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     color: white;
@@ -92,7 +91,8 @@ button:hover {
 }
 
 footer{
-    margin: 40px 40px 100px 40px;
+    margin: 40px 40px -50px 40px;
+    background-color: #F2F2F2;
 }
 
 
@@ -150,6 +150,7 @@ footer{
     display: flex;
     align-items: center;
     margin: 10px;
+    margin-left: 60px;
     border: 2px solid rgba(0, 0, 0, 0.2);
     border-radius: 45px 45px 45px;
     flex-grow: 1;
@@ -194,8 +195,10 @@ footer{
 
 .info {
     display: flex;
+   margin-left: -5px;
     align-items: center;
-    margin: 40px 10px 0px 0px;
+    margin-top: 60px;
+    
 }
 
 .info i {
@@ -215,9 +218,11 @@ footer{
     margin: 0px;
     margin-left: 5px;
 
+
 }
 
 /*Cards style*/
+
 
 /*lodging cards + aside cards*/
 .lodging-container {
@@ -399,6 +404,7 @@ i {
     width: 410px;
     max-height: 700px;
     transition: 0.3s;
+    margin-right: 30px;
 }
 
 .activity-cards:hover {
@@ -426,7 +432,7 @@ i {
 
 /*Footer*/
 
-.info{
+.info-footer{
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
@@ -434,9 +440,10 @@ i {
     margin-left: 20px;
     margin-bottom: 50px;
     
+    
 }
 
-.info h3{
+.info-footer h3{
     margin-left: auto;
 }
 
