@@ -1,0 +1,162 @@
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+    body{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    main{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1024px;
+    }
+
+    header{
+        width: auto;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    ul{
+        align-items: end;
+
+    }
+
+    .filters-container p{
+        font-size: 21px;
+ 
+    }
+    .research{
+        width: 377px;
+    }
+    #search-input::placeholder{
+        font-size: 18px;
+    }
+    .content {
+        flex-direction: column;
+        max-width: 935px;
+        margin-right: 40px;
+    }
+    .container{
+        max-width: 750px;
+        
+    }
+
+    .filters-items{
+        margin: 0px 5px;
+        position: relative;
+        left: -75px;
+
+    }
+    .filters-items p{
+        font-size: 16px;
+    }
+
+    .filters{
+        position: relative;
+        top: -50px
+
+    }
+
+    .filters p{
+        font-size: 16px;
+    }
+
+    .lodging-container{
+        max-width: 930px;
+        
+    
+    }
+
+    .more{
+        margin-left: 40px;
+        font-size: 21px;
+    }
+    
+
+    .aside {
+        width: 930px;
+        height: 275px;
+        margin-top: 50px;
+        flex-direction: row;
+    }
+
+    .popular-aside{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .side-card {
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+        height: 146px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        
+    }
+
+    .side-card a {
+        width: 30%;
+    }
+
+    .aside-title {
+        font-size: 14px;
+    }
+
+    .side-card p {
+        font-size: 13px;
+    }
+
+    .activities{
+        width: 870px;
+        
+    }
+
+    .activity-cards{
+        height: 270px;
+    }
+    .activity-cards img{
+        max-height: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .activity-cards p{
+        position: relative;
+        margin-top: 0px;
+        bottom: -22px;
+    }
+
+    .p-activity{
+        position: relative;
+        top: 13px;
+    }
+
+    .info-footer{
+        margin-right: 16%;
+    }
+
+   
+
+    
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* ... */
+}
