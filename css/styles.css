@@ -147,6 +147,10 @@ width: auto;
     align-items: center;
 }
 
+.search-btn .mobile-only {
+    display: none;
+}
+
 
 /*Filters section*/
 
@@ -160,6 +164,7 @@ width: auto;
 .filters p {
     margin: 0;
 }
+
 
 .filters-items {
     display: flex;
@@ -213,7 +218,6 @@ width: auto;
     display: flex;
     align-items: center;
     margin-top: 40px;
-
 }
 
 .info i {
@@ -361,7 +365,7 @@ width: auto;
     margin-left: 40px;
 }
 
-.aside-tittle {
+.aside-title {
     display: flex;
     justify-content: space-between;
     align-items: start;
@@ -369,7 +373,7 @@ width: auto;
     margin-left: 10px;
 }
 
-.aside-tittle i {
+.aside-title i {
     font-size: 1.2em;
     margin-top: 25px;
     margin-right: 40px;

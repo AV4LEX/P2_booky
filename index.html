@@ -44,10 +44,13 @@
                 <p>En plein centre-ville ou en pleine nature</p>
             </div>
             <div class="research">
-                <i class="fa-solid fa-location-dot" style="margin-right: 0px;"></i>
+                <i class="fa-solid fa-location-dot""></i>
                 <form action="/search" method="get">
                     <input type="text" id="search-input" name="q" placeholder="Marseille, France">
-                    <button type="submit">Rechercher</button>
+                    <button type="submit" class="search-btn">
+                        <span class="mobile-only"><i class="fa-solid fa-magnifying-glass" style="color: white;"></i></span>
+                        <span class="desktop-only">Rechercher</span>
+                    </button>
                 </form>
             </div>
             <section class="filters-container">
@@ -183,9 +186,9 @@
             </section>
 
             <!--Aside cards-->
-
+        <div class="aside-container">
             <div class="aside">
-                <div class="aside-tittle">
+                <div class="aside-title">
                     <h2>Les plus populaires</h2>
                     <i class="fa-solid fa-chart-line" style="color: #0065fc;"></i>
                 </div>
@@ -238,6 +241,7 @@
                     </div>
                 </aside>
             </div>
+        </div>
         </section>
 
 
