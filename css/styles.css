@@ -23,8 +23,6 @@ nav {
     width: auto;
 }
 
-
-
 nav img {
     display: flex;
     align-items: center;
@@ -46,6 +44,10 @@ nav li {
     border-top: 2px solid transparent;
     padding-top: 10px;
     transition: border-color 0.3s;
+}
+
+nav li a:hover {
+    color: #0065FC;
 }
 
 nav li:hover {
@@ -95,9 +97,11 @@ button:hover {
 
 footer {
     height: auto;
-width: auto;
+    width: auto;
     background-color: #F2F2F2;
 }
+
+
 
 
 /* Research section*/
@@ -113,7 +117,7 @@ width: auto;
     font-size: 18px;
     color: black;
     font-weight: 700;
-    
+
 }
 
 .container {
@@ -140,7 +144,7 @@ width: auto;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     background-color: #F2F2F2;
-    width: 50px;
+    min-width: 50px;
     height: 49px;
     font-size: 1.2em;
     justify-content: center;
@@ -186,7 +190,7 @@ width: auto;
     font-size: 0.9em;
 }
 
-.filters-items p {
+.filters-items-p {
     font-size: 18px;
     margin: 20px 10px;
     font-weight: bold;
@@ -253,7 +257,7 @@ width: auto;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-right: 0px;
-    margin-top: 50px; 
+    margin-top: 50px;
     width: auto;
 }
 
@@ -266,7 +270,7 @@ width: auto;
 
 /*lodging block*/
 
-.lodging-title{
+.lodging-title {
     display: flex;
     margin-left: 10px;
     margin-bottom: -10px;
@@ -337,6 +341,11 @@ width: auto;
 .card-container i {
     color: #0065FC;
     font-size: 0.8em;
+}
+
+.fa-xs.neutral-star {
+    font-size: 0.8em; 
+    color: #F2F2F2;
 }
 
 .more {
@@ -437,7 +446,6 @@ width: auto;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 40px;
-
 }
 
 .activities h2 {
@@ -452,18 +460,18 @@ width: auto;
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    width: auto;
+    max-width: auto;
+    align-items: center;
 }
 
 .activity-cards {
     display: flex;
-    width: auto;
     flex-direction: column;
     cursor: pointer;
     box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.09);
     border-radius: 30px;
-    width: 410px;
-    max-height: 700px;
+    width: 297px;
+    height: 439px;
     transition: 0.3s;
 }
 
@@ -506,7 +514,7 @@ width: auto;
 
 }
 
-.info-footer p:hover{
+.info-footer p:hover {
     cursor: pointer;
     font-weight: 400;
 

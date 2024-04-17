@@ -3,14 +3,19 @@
 @media (max-width: 1024px) {
 
     body{
-        margin-left: 35px;
-        margin-right: 35px;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 924px;
     }
 
     main{
+        display: flex;
+        flex-direction: column;
         margin-left: auto;
         margin-right: auto;
-        max-width: 1024px;
+        width: 924px;
     }
 
     header{
@@ -45,12 +50,13 @@
         font-size: 18px;
     }
     .content {
-        flex-direction: column;
-        max-width: 935px;
-        margin-right: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 924px;
     }
+
     .container{
-        max-width: 750px;
+        max-width: 924px;
         
     }
 
@@ -60,7 +66,7 @@
         left: -75px;
 
     }
-    .filters-items p{
+    .filters-items-p{
         font-size: 16px;
     }
 
@@ -75,9 +81,8 @@
     }
 
     .lodging-container{
-        max-width: 930px;
-        
-    
+        display: flex;
+        width: 100%;
     }
 
     .more{
@@ -87,7 +92,7 @@
     
 
     .aside {
-        width: 930px;
+        width: 924px;
         height: 275px;
         margin-top: 50px;
         flex-direction: row;
@@ -106,8 +111,7 @@
         flex-grow: 1;
         height: 146px;
         margin-right: 20px;
-        margin-bottom: 20px;
-        
+        margin-bottom: 20px;  
     }
 
     .side-card a {
@@ -123,16 +127,20 @@
     }
 
     .activities{
-        width: 870px;
-        
+        width: auto; 
     }
-
+    
+    .activity-container{
+        width: auto;
+        display: flex;
+    }
     .activity-cards{
         height: 270px;
+        width: 180px;
+        gap: 30px;
     }
     .activity-cards img{
         max-height: 200px;
-        height: 200px;
         object-fit: cover;
     }
     .activity-cards p{
@@ -147,6 +155,8 @@
     }
 
     .info-footer{
+        display: flex;
+        justify-content: space-between;
         margin-right: 16%;
     }
 
