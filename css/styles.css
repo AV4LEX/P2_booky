@@ -241,13 +241,7 @@ footer {
 /*Cards style*/
 
 /*lodging cards + aside cards*/
-.lodging-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-right: 0px;
 
-}
 
 .content {
     display: flex;
@@ -276,9 +270,9 @@ footer {
 .lodging {
     display: flex;
     flex-direction: column;
-    flex: 1;
     justify-content: space-between;
-    margin-top: 0px;
+    margin-top: 40px;
+    margin-right: 0px;
     border-radius: 30px;
     height: 615px;
     width: auto;
@@ -287,7 +281,6 @@ footer {
 
 .cards-row {
     display: flex;
-    background-color: #F2F2F2;
     flex-wrap: wrap;
     margin-left: 40px;
     margin-bottom: 40px;
@@ -308,6 +301,7 @@ footer {
     padding: 5px;
     gap: 4px;
 }
+
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -365,7 +359,6 @@ footer {
 }
 
 .popular-aside {
-    justify-content: center;
     margin-bottom: 0px;
     margin-top: 55px;
     margin-left: 40px;

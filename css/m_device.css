@@ -15,13 +15,13 @@
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
-        width: 924px;
+        width: 100%;
     }
 
     header {
         width: auto;
     }
-    
+
     h1 {
         font-size: 22px;
     }
@@ -56,22 +56,15 @@
         font-size: 18px;
     }
 
-    .content {
-        display: flex;
-        flex-wrap: wrap;
-        width: 924px;
-    }
 
     .container {
         max-width: 924px;
-
     }
 
     .filters-items {
         margin: 0px 5px;
         position: relative;
         left: -75px;
-
     }
 
     .filters-items-p {
@@ -87,36 +80,55 @@
         font-size: 16px;
     }
 
-    .lodging-container {
+    /*lodging*/
+
+    .cards-row{
         display: flex;
-        width: 100%;
+        flex-flow: wrap row;
+        width: auto;
+        height: auto;
+        margin-bottom: 0px;
+    }
+
+    .cards{
+        display: flex;
+        margin-bottom: 0px;
+    }
+
+    .lodging{
+        display: flex;
+        width: auto;
+        height: auto;
     }
 
     .more {
-        margin-left: 40px;
+        display: flex;
+        margin-left: 45px;
         font-size: 21px;
+        margin-top: 20px;
     }
-
+    
     /*Most popular section*/
-
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
     .aside {
-        width: 924px;
-        height: 275px;
+        width: 100%;
+        height: auto;
         margin-top: 50px;
-        flex-direction: row;
     }
 
     .popular-aside {
         display: flex;
-        justify-content: space-between;
         align-items: start;
-        margin-right: 20px;
-        margin-bottom: 20px;
     }
 
     .side-card {
         display: flex;
-        flex-grow: 1;
+        width: 274px;
         height: 146px;
         margin-right: 20px;
         margin-bottom: 20px;
