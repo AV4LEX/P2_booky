@@ -102,8 +102,6 @@ footer {
 }
 
 
-
-
 /* Research section*/
 
 
@@ -251,7 +249,6 @@ footer {
 
 }
 
-/*content = lodging + aside*/
 .content {
     display: flex;
     flex-wrap: wrap;
@@ -268,7 +265,7 @@ footer {
 }
 
 
-/*lodging block*/
+/*lodging section*/
 
 .lodging-title {
     display: flex;
@@ -344,7 +341,7 @@ footer {
 }
 
 .fa-xs.neutral-star {
-    font-size: 0.8em; 
+    font-size: 0.8em;
     color: #F2F2F2;
 }
 
@@ -356,7 +353,7 @@ footer {
     margin-bottom: 20px;
 }
 
-/*Most popular Cards*/
+/*Most popular section*/
 
 .aside {
     width: 460px;
@@ -439,7 +436,7 @@ footer {
 
 
 
-/*Activities Cards*/
+/*Activities section*/
 .activities {
     margin-top: 70px;
     width: auto;
@@ -459,8 +456,9 @@ footer {
 .activity-container {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
-    max-width: auto;
+    gap: 25px;
+    max-width: 100%;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -470,7 +468,8 @@ footer {
     cursor: pointer;
     box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.09);
     border-radius: 30px;
-    width: 297px;
+    width: 30vw;
+    max-width: 297px;
     height: 439px;
     transition: 0.3s;
 }
@@ -484,7 +483,7 @@ footer {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     width: 100%;
-    height: 380px;
+    height: 80%;
     object-fit: cover;
 }
 
@@ -510,8 +509,6 @@ footer {
     margin-right: 23%;
     margin-left: 20px;
     margin-bottom: 10px;
-
-
 }
 
 .info-footer p:hover {

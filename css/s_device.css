@@ -4,7 +4,7 @@
 @media (max-width: 768px) {
 
 
-    body{
+    body {
         max-width: 375px;
         margin-left: auto;
         margin-right: auto;
@@ -105,7 +105,7 @@
     }
 
 
-
+/*Research section*/
 
     .lodging-container {
         max-width: 375px;
@@ -240,7 +240,7 @@
         margin-right: 0px;
     }
 
-    /*lodging + aside*/
+    /*lodging + Most popular*/
 
     .content {
         width: 375px;
@@ -284,19 +284,16 @@
 
     .card {
         max-width: none;
-        /* Supprimez la largeur maximale pour utiliser toute la largeur disponible */
     }
 
     .more {
         font-size: 21px;
         margin-top: 820px;
         margin-left: 0px;
-       
+
     }
 
-    /*Aside*/
-
-
+    /*Most popular section*/
 
     .aside-container {
         order: -1;
@@ -351,14 +348,14 @@
 
     /*Activities*/
 
-    /* Activities Cards */
     .activities {
         margin-top: 60px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 40px;
-        width: 375px;
+        width: 315px;
         height: 845px;
+        border: none;
     }
 
     .activities h2 {
@@ -374,6 +371,7 @@
         grid-template-columns: 1fr;
         gap: 20px;
         width: auto;
+        box-shadow: none;
 
     }
 
@@ -394,7 +392,7 @@
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
         width: 100%;
-        height: 141px;
+        height: 70%;
         object-fit: cover;
     }
 
@@ -402,7 +400,8 @@
         display: flex;
         justify-content: start;
         text-align: start;
-        margin-top: -30px;
+        width: 100%;
+        margin-top: 0px;
         margin-bottom: 30px;
         margin-left: 15px;
         font-weight: bold;
