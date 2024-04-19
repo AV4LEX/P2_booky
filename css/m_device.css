@@ -107,7 +107,7 @@
         font-size: 21px;
         margin-top: 20px;
     }
-    
+
     /*Most popular section*/
     .content{
         display: flex;
@@ -124,6 +124,8 @@
     .popular-aside {
         display: flex;
         align-items: start;
+        margin-left: 20px;
+        padding: 20px;
     }
 
     .side-card {
@@ -131,7 +133,7 @@
         width: 274px;
         height: 146px;
         margin-right: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .side-card a {
@@ -140,6 +142,7 @@
 
     .aside-title {
         font-size: 14px;
+        margin-right: 5px;
     }
 
     .side-card p {
@@ -188,6 +191,5 @@
         justify-content: space-between;
         margin-right: 16%;
     }
-
 
 }
