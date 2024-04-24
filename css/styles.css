@@ -123,7 +123,7 @@ footer {
 .container {
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 100%;
     height: 280px;
     gap: 10px
 }
@@ -250,7 +250,7 @@ footer {
     justify-content: space-between;
     margin-right: 0px;
     margin-top: 50px;
-    width: auto;
+    width: 100%;
 }
 
 
@@ -377,7 +377,6 @@ footer {
     font-size: 1.2em;
     margin-top: 25px;
     margin-right: 40px;
-
 }
 
 
@@ -577,7 +576,7 @@ footer {
 
 
     .container {
-        max-width: 924px;
+        max-width: 100%;
     }
 
     .filters-items {
@@ -676,14 +675,13 @@ footer {
         box-shadow: none;
         border-radius: 30px;
         gap: 20px;
-        max-width: 100%;
+        width: 100%;
         margin: 0 auto;
 
     }
 
     .activity-cards {
         width: 100%;
-        max-width: 100%;
         min-width: 180px;
         height: 270px;
     }
@@ -741,7 +739,7 @@ footer {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        width: 375px;
+        width: 100%;
         height: 115px;
     }
 
@@ -825,13 +823,13 @@ footer {
 /*Research section*/
 
     .lodging-container {
-        max-width: 375px;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 
     .research {
-        width: 375px;
+        width: 100%;
         margin-left: 15px;
         margin-top: 30px;
         margin-bottom: 10px;
@@ -893,7 +891,7 @@ footer {
 
     .container {
         height: 432px;
-        max-width: auto;
+        width: 100%;
     }
 
     .container p {
@@ -941,7 +939,7 @@ footer {
         margin-left: 0px;
         margin-top: 90px;
         margin-bottom: 50px;
-        width: 360px;
+        width: 95%;
     }
 
     .info i {
@@ -959,7 +957,7 @@ footer {
     /*lodging + Most popular*/
 
     .content {
-        width: 375px;
+        width: 100%;
         margin-top: 80px;
 
     }
@@ -976,7 +974,7 @@ footer {
 
     .lodging {
         height: 1435px;
-        width: 375px;
+        width: 100%;
         margin-top: 0px;
         background-color: white;
         align-items: center;
@@ -990,7 +988,7 @@ footer {
     } 
 
     .cards-row {
-        width: 335px;
+        width: 90%;
         display: grid;
         grid-template-columns: 1fr;
         margin-left: 0;
@@ -1012,7 +1010,7 @@ footer {
 
     .aside {
         order: -1;
-        width: 375px;
+        width: 100%;
         height: 650px;
         border-radius: 0px;
         margin-top: 30px;
@@ -1044,7 +1042,7 @@ footer {
     }
 
     .side-card {
-        width: 335px;
+        width: 95%;
         height: 146px;
         margin-right: 0px;
         margin-left: 0px;
@@ -1121,7 +1119,7 @@ footer {
 
 
     .container {
-        width: 375px;
+        width: 100%;
     }
 
 
