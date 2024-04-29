@@ -251,12 +251,7 @@ footer {
     margin-right: 0px;
     margin-top: 50px;
     width: 100%;
-}
-
-
-.content h2 {
-    margin-bottom: 40px;
-    margin-left: 30px;
+    height: 675px;
 }
 
 
@@ -264,43 +259,36 @@ footer {
 
 .lodging-title {
     display: flex;
-    margin-left: 10px;
-    margin-bottom: -10px;
+    justify-content: start;
+      
 }
 
 .lodging {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    width: 60%;
     margin-top: 40px;
-    margin-right: 0px;
-    border-radius: 30px;
-    height: 615px;
-    width: auto;
     background-color: #F2F2F2;
+    border-radius: 30px;
+    padding: 20px 40px;
 }
 
 .cards-row {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 40px;
-    margin-bottom: 40px;
-    margin-right: 10px;
-    gap: 30px;
-    width: 871px;
-    height: 614px;
+    justify-content: space-between;
+    height: 207px;
 }
 
 .card {
-    border-radius: 20px;
+    
     box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.09);
     transition: 0.3s;
+    width: 30%;
+    height: 207px;
     background-color: white;
-    cursor: pointer;
-    max-width: 250px;
-    max-height: 207px;
     padding: 5px;
-    gap: 4px;
+    margin: 15px 0px;
+    border-radius: 15px;
 }
 
 
@@ -309,10 +297,10 @@ footer {
 }
 
 .card img {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    max-width: 100%;
-    max-height: 59%;
+    width: 100%;
+    height: 120px;
+    object-position: center;
+    border-radius: 15px 15px 0px 0px;
     object-fit: cover;
 }
 
@@ -341,42 +329,51 @@ footer {
 }
 
 .more {
+    position: relative;
+    align-items: start;
     font-size: 1.2em;
     font-weight: bold;
-    margin-top: -15px;
-    margin-left: 40px;
-    margin-bottom: 20px;
+    width: 100%;
+    top: 320px
 }
 
 /*Most popular section*/
 
 .aside {
-    width: 460px;
-    height: 615px;
+    width: 30%;
+    height: 675px;
     margin-top: 40px;
-    margin-right: 0px;
-    background-color: #F2F2F2;
     border-radius: 30px;
+    background-color: #F2F2F2;
+    padding-bottom: 1%;
 }
 
+
 .popular-aside {
-    margin-bottom: 0px;
-    margin-top: 55px;
-    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 15px;
+    height: 675px;
+    width: 90%;
+    padding-left: 9%;
+    padding-right: 6%;
 }
 
 .aside-title {
     display: flex;
     justify-content: space-between;
     align-items: start;
+    width: 100%;
     height: 26px;
-    margin-left: 10px;
+    margin-bottom: 15px;
+    padding-left: 1.5%; 
 }
 
 .aside-title i {
     font-size: 1.2em;
     margin-top: 25px;
-    margin-right: 40px;
+    margin-right: 10%;
 }
 
 
@@ -387,9 +384,8 @@ footer {
     transition: 0.3s;
     background-color: white;
     cursor: pointer;
-    margin-bottom: 25px;
-    width: 369px;
-    height: 142px;
+    width: 90%;
+    height: 150px;
     padding: 5px;
 }
 
@@ -413,6 +409,7 @@ footer {
     align-items: start;
     margin-left: 10px;
     height: 100%;
+    width: 100%;
 }
 
 .side-container p {
@@ -431,28 +428,22 @@ footer {
 
 /*Activities section*/
 .activities {
-    margin-top: 70px;
-    width: auto;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 40px;
+    margin-top: 120px;
+    width: 95%; 
+    height: 560px;
+    margin-left: 35px;
 }
 
 .activities h2 {
     display: flex;
-    margin-left: 0px;
     margin-bottom: 40px;
-
-
 }
 
 .activity-container {
     display: flex;
-    justify-content: space-between;
-    gap: 25px;
-    max-width: 100%;
-    flex-wrap: wrap;
-    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    width: 100%;
 }
 
 .activity-cards {
@@ -460,11 +451,11 @@ footer {
     flex-direction: column;
     cursor: pointer;
     box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.09);
+    transition: 0.3s;
     border-radius: 30px;
     width: 30vw;
-    max-width: 297px;
-    height: 439px;
-    transition: 0.3s;
+    max-width: 335px;
+    max-height: 439px;  
 }
 
 .activity-cards:hover {
@@ -472,12 +463,12 @@ footer {
 }
 
 .activity-cards img {
-    flex: 1;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    width: 100%;
-    height: 80%;
-    object-fit: cover;
+        flex: 1;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        width: 100%;
+        height: 380px;
+        object-fit: cover;
 }
 
 .activity-cards p {
@@ -600,10 +591,26 @@ footer {
 
     /*lodging*/
 
+    
+    .lodging {
+        width: 100%;
+        height: 611px;
+        margin-top: 40px;
+        background-color: #F2F2F2;
+        padding: 20px 30px;
+    }
+
+    .lodging-title {
+        display: flex;
+        justify-content: start;
+        width: 100%;   
+    }
+
     .cards-row{
         display: flex;
-        flex-flow: wrap row;
-        width: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
         height: auto;
         margin-bottom: 0px;
     }
@@ -613,17 +620,9 @@ footer {
         margin-bottom: 0px;
     }
 
-    .lodging{
-        display: flex;
-        width: auto;
-        height: auto;
-    }
-
     .more {
-        display: flex;
-        margin-left: 45px;
-        font-size: 21px;
-        margin-top: 20px;
+        position: relative;
+        top: 15px
     }
 
     /*Most popular section*/
@@ -635,22 +634,43 @@ footer {
     }
     .aside {
         width: 100%;
-        height: auto;
+        height: 260px;
         margin-top: 50px;
+    }
+
+    .aside-title i {
+        font-size: 1.2em;
+        margin-top: 25px;
+        margin-right: 20px;
+    }
+
+    .aside-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        margin-left: 14px;
+        margin-top: 5px;
+        width: 100%;
+
     }
 
     .popular-aside {
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 14px;
         align-items: start;
-        margin-left: 20px;
-        padding: 20px;
+        height: 252px;
+        width: 97%;
+        padding: 0px;
     }
 
     .side-card {
         display: flex;
-        width: 274px;
+        width: 29%;
         height: 146px;
-        margin-right: 20px;
+        margin-top: 3%;
         margin-bottom: 40px;
     }
 
@@ -669,15 +689,25 @@ footer {
 
     /*Activity*/
 
+    .activities {
+        margin-top: 40px;
+        width: 90%; 
+        height: 390px;
+        margin-left: 40px;
+    }
+
+    .activities h2{
+        margin-left: 5px;
+    }
+
     .activity-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
         box-shadow: none;
         border-radius: 30px;
-        gap: 20px;
+        gap: 30px;
         width: 100%;
-        margin: 0 auto;
-
+        margin-left: 5px;
     }
 
     .activity-cards {
@@ -687,12 +717,7 @@ footer {
     }
 
     .activity-cards img {
-        flex: 1;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
-        width: 100%;
-        height: 75%;
-        object-fit: cover;
+        max-height: 200px;
     }
 
     .activity-cards p {
@@ -959,7 +984,6 @@ footer {
     .content {
         width: 100%;
         margin-top: 80px;
-
     }
 
     .content .aside-container {
@@ -977,18 +1001,18 @@ footer {
         width: 100%;
         margin-top: 0px;
         background-color: white;
-        align-items: center;
         margin-left: auto;
         margin-right: auto;
+        padding: 15px;
     }
 
     .lodging h2{
-
         margin-right: 60px;
+        margin-left: 0px;
     } 
 
     .cards-row {
-        width: 90%;
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr;
         margin-left: 0;
@@ -997,13 +1021,12 @@ footer {
     }
 
     .card {
-        max-width: none;
+        width: 95%;
+        margin-right: 5px;
     }
 
     .more {
         font-size: 21px;
-        margin-top: 30px;
-        margin-left: -210px;
     }
 
     /*Most popular section*/
@@ -1011,34 +1034,28 @@ footer {
     .aside {
         order: -1;
         width: 100%;
-        height: 650px;
+        height: 660px;
         border-radius: 0px;
         margin-top: 30px;
-        margin-bottom: 30px;   
+        margin-bottom: 10px;   
     }
 
     .aside-title {
         display: flex;
         justify-content: space-between;
-        margin-left: 25px;
-        margin-right: 15px;
-        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: -13px;
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
 
     .aside-title i {
         font-size: 22px;
-        margin-right: 3px;
-        margin-top: 12px;
+        margin-top: 15px;
     }
 
     .popular-aside {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-left: 0px;
-        margin-top: 10px;
-        display: flex;
+        width: 90%;
     }
 
     .side-card {
@@ -1046,6 +1063,7 @@ footer {
         height: 146px;
         margin-right: 0px;
         margin-left: 0px;
+        margin-bottom: 20px;
     }
 
     .side-card i {
@@ -1056,11 +1074,10 @@ footer {
     /*Activities*/
 
     .activities {
-        margin-top: 200px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-top: 150px;
         margin-bottom: 40px;
-        width: 315px;
+        margin-left: 0px;
+        width: 95%;
         height: 845px;
         border: none;
     }
@@ -1070,14 +1087,15 @@ footer {
         justify-content: start;
         align-items: center;
         margin-bottom: 40px;
-        margin-left: 0px;
+        margin-left: 20px;
     }
 
     .activity-container {
         display: grid;
         grid-template-columns: 1fr;
         gap: 20px;
-        width: auto;
+        width: 100%;
+        margin-left: 0px;
         box-shadow: none;
 
     }
@@ -1087,10 +1105,11 @@ footer {
         flex-direction: column;
         box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.09);
         border-radius: 30px;
-        width: 315px;
+        width: 90%;
         height: 200px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 10px;
     }
 
 
@@ -1099,7 +1118,7 @@ footer {
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
         width: 100%;
-        height: 70%;
+        height: 60%;
         object-fit: cover;
     }
 
